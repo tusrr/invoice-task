@@ -1,0 +1,23 @@
+.footer {
+  border-top: 1px solid #ccc;
+  padding: 20px;
+  font-size: 14px;
+  color: #333;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-left p,
+.footer-right p {
+  margin: 2px 0;
+}
